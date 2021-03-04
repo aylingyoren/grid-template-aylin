@@ -493,8 +493,9 @@ h1 {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   text-align: center;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   font-size: 3.75rem;
+  line-height: 1.2em;
 }
 
 a {
@@ -511,6 +512,7 @@ a {
   font-size: 1.125rem;
   text-align: center;
   padding: 18px 20px;
+  letter-spacing: 0.1em;
 }
 
 .header {
@@ -561,7 +563,7 @@ a {
 
 .header-logo {
   font-size: 1.5rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.22em;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -573,8 +575,8 @@ a {
 .header-logo__accent {
   display: inline-block;
   border: 3px solid #d53d27;
-  padding: 15px 5px 15px 5px;
-  margin-right: 8px;
+  padding: 14px 1px 13px 5px;
+  margin-right: 4px;
 }
 
 .header-navbar__btn {
@@ -586,7 +588,7 @@ a {
   justify-content: end;
   grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
   list-style: none;
-  margin: 0;
+  margin: 0 -20px 0 0;
   padding: 0;
 }
 
@@ -599,7 +601,7 @@ a {
   display: block;
   padding: 20px 10px;
   font-size: 1.125rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
 }
 
 .header-content {
@@ -611,7 +613,7 @@ a {
 }
 
 .header-content__title {
-  margin: 0 0 51px 0;
+  margin: 0 0 53px 0;
 }
 
 .header-content__actions {
