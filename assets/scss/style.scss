@@ -1,10 +1,10 @@
 
 @import "../../libs/normalize-scss/sass/normalize/import-now";
-@import "skin";
-@import "variables";
-@import "mixins";
-@import "mixins-media";
-@import "extends";
+// @import "skin";
+// @import "variables";
+// @import "mixins";
+// @import "mixins-media";
+// @import "extends";
 
 @import "common";
 @import "header/header";
@@ -20,3 +20,15 @@
 @import "sections/section-posts";
 
 @import "footer";
+
+
+    /*
+     * Наш код пишем здесь
+     */
+    
+    
+    @media (max-height: 690px) {
+      .skill-item {
+        grid-auto-rows: calc(230px - 13.333px);
+      }
+    }
