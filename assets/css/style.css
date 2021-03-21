@@ -581,6 +581,10 @@ a {
   margin-right: 4px;
 }
 
+.header-navbar {
+  position: relative;
+}
+
 .header-navbar__btn {
   width: 30px;
   height: 22.5px;
